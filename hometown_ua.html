@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+
+<html lang="uk">
+
+<head>
+	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="UTF-8">
+	<link href="styles.css" rel="stylesheet">
+	<title>Моє рідне місто</title>
+</head>
+
+<body>
+	<div class="lang-menu hometown blurable">
+		<div><i class="fas fa-globe hometown" id="lang-button"></i></div>
+		<div class="lang-drop-down hometown">
+			<a id="lang" href="hometown.html">English</a>
+		</div>
+	</div>
+
+	
+	<header class="blurable" style="background-image: url(img/hometown/sky.jpeg);">
+		<div class="container-fluid" style="color: #e2dfd0;">
+			<div class="row justify-content-center"><h1>ЖОВТІ ВОДИ</h1></div>
+			<div class="row justify-content-center"><h3>Моє місто</h3></div>
+			<div class="row justify-content-end">
+				<div class="col-6 col-sm-4"><p style="text-align: right; font-size: 1.15em; letter-spacing: 2px;"><cite>Людина подорожує світом у пошуках себе та повертається додому щоб знайти.</cite><br />Джордж Мур</p>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<main class="hometown-svg">
+		<div class="sticky" id="nav-bar">
+			<div class="menu-btn hometown">
+  				<div class="bar1"></div>
+  				<div class="bar2"></div>
+  				<div class="bar3"></div>
+			</div>
+			<div id="nav-drop-down" class="menu-down menu-up">
+				<a href="index_ua.html"><i class="fab fa-raspberry-pi hometown"></i><span class="hometown">Вступ</span></a>
+				<a href="hometown_ua.html" id="current"><i class="fas fa-home hometown"></i><span class="hometown">Дім</span></a> 
+				<a href="outdoors_ua.html"><i class="fas fa-hiking hometown"></i><span class="hometown">Гори</span></a>
+				<a href="cities_ua.html"><i class="fas fa-city hometown"></i><span class="hometown">Міста</span></a>
+			</div>
+		</div>
+		
+		<div class="container-fluid blurable" style="margin-top: -2.5rem; padding-bottom: 2rem;">
+			<div class="row align-items-center presentation">	
+
+				<div class="col-lg-4" style="margin-top: 4.3rem;">
+					<div class="article-holder hometown">	
+						<div class="heading hometown"><h2>Жовті Води</h2></div>
+						<div class="col article hometown">
+							<article>
+								<p>Уродився я у невеличкому містечку в центральній Україні, і ім'я йому Жовті Води. Моє місто відоме за славнозвісну битву 1648 року під проводом Богдана Хмельницького проти Речі Посполитої. Мені завжди було цікаво як ту битву називали у ті часи, адже місто було засновано лишень якихось 250 років потому.</p>
+								<p>Це тихеньке та доволі спокійне містечко. Серьйозно, тут майже нічого незвичного не відбувається. Місто потопає у деревах, ніби один великий парк улітку або ж колоритний (здебільшого жовтий) ліс восени. Найвидатнішою спорудою є Палац Культури, який рідкому відвідувачу міста може видатись таким самим випадковим туристом: будівля просто завелика та занадто дивовижна на фоні Жовтих Вод і більше є відголосом колишньої слави та розквіту.</p>
+								<p>Жовті Води також відомі видобутком і збагаченням уранової руди. Це й безпосередньо вплинуло на розвиток інфраструктури міста за часів СРСР. Через стратегічну цінність сюди не проводили залізничної колії, а найближча станція П'яихатки за 20 кілометрів. Це додає місту відчуття відчуженості від світу, а наразі це відчуття підсилено занепадом навколишніх доріг. Запеклим подорожувальникам бажаю наснаги на шляху до Жовтих Вод (також не завадить джип)!</p>
+							</article>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-8 map-gal">
+
+					<div class="row tabs justify-content-end">
+						<button class="col-auto tablink hometown" onclick="openTab(event, 'map')" id="default">Мапа</button>
+						<button class="col-auto tablink hometown" onclick="openTab(event, 'gallery')">Галерея</button>
+					</div>
+
+					<div id="map" class="col tab1content hometown">
+						<iframe src="https://www.google.com/maps/d/u/0/embed?mid=1JfLtcnHwunr1ZSAIxNF9O52jxujipAEw" width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+					</div>
+
+					<div id="gallery" class="col tab1content hometown">
+						<div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-interval="10000"> 						
+							<div class="carousel-inner">
+   								<div class="carousel-item active">
+      									<img class="d-block w-100" src="img/hometown/monument.jpg" alt="Monument">
+									<div class="carousel-caption d-none d-md-block" id="carousel-cap">
+    										<h5>Пам'ятник-символ міста</h5>
+    										<p>Максим Кривоніс, Богдан Хмельницький та Іван Богун</p>
+  									</div>    							
+								</div>
+    								<div class="carousel-item">
+      									<img class="d-block w-100" src="img/hometown/palace.jpg" alt="Palace of Culture">
+									<div class="carousel-caption d-none d-md-block">
+    										<h5>Палац Культури</h5>
+    										<p>Зведений у 1957 році</p>
+  									</div>    					   									
+								</div>
+   								<div class="carousel-item">      										
+									<img class="d-block w-100" src="img/hometown/lenin.jpg" alt="Empty Lenin pedestal">
+									<div class="carousel-caption d-none d-md-block">
+    										<h5>Постамент без Леніна</h5>
+    										<p>Його промовиста відсутність</p>
+  									</div>    						   								
+								</div>
+  							</div>
+  							<a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+    								<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    								<span class="sr-only">Previous</span>
+ 							</a>
+  							<a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+    								<span class="carousel-control-next-icon" aria-hidden="true"></span>
+    								<span class="sr-only">Next</span>
+  							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+	</main>
+
+	<footer class="blurable hometown">
+		<div class="row justify-content-center" style="margin: 0;">
+			<div class="col-auto">Усі права захищено &copy;2019. Створено у Стамбулі<br />Піживлено Bootstrap.CSS</div>
+		</div>
+	</footer>
+
+<script src='https://kit.fontawesome.com/a076d05399.js'></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	
+<script>			
+	document.querySelector(".menu-btn > div").addEventListener("click", function(e) {
+  		e.stopPropagation();
+		e.preventDefault();
+	});
+
+	document.querySelector(".menu-btn").addEventListener("click", menuBtnTransform);
+	document.querySelector(".menu-btn").addEventListener("click", dropDownMenu);
+	document.querySelector(".menu-btn").addEventListener("click", blur);
+	document.getElementById("lang-button").addEventListener("click", langMenu);
+
+	function langMenu () {
+		document.querySelector(".lang-drop-down").classList.toggle("down");
+	}
+
+	function menuBtnTransform() {
+  		var x = document.getElementsByClassName("menu-btn");
+		for (var a = 0; a < x.length; a++) {
+			var b = x[a];
+			b.classList.toggle("change");
+		}
+	}
+
+	function dropDownMenu() {
+		document.getElementById("nav-drop-down").classList.toggle("menu-up");
+	}
+
+	window.onclick = function(event) {
+  		if (!event.target.matches('.menu-btn')) {
+    			var dropdown = document.getElementById("nav-drop-down");
+      			if (!dropdown.classList.contains('menu-up')) {
+      				dropdown.classList.add('menu-up');
+    			}
+
+			document.querySelector(".menu-btn").classList.remove('change');
+
+			var deblur = document.getElementsByClassName("blurable");
+			for (var a = 0; a < deblur.length; a++) {
+				deblur[a].classList.remove("blur");
+			}
+	
+			document.querySelector("main").classList.remove("blur-background");
+  		}
+		if (!event.target.matches('#lang-button')) {
+			document.querySelector(".lang-drop-down").classList.remove("down");
+		}
+	}
+
+	function blur() {
+		var a = document.getElementsByClassName("blurable");
+		for (var b = 0; b < a.length; b++) {
+			a[b].classList.toggle("blur");
+		}
+
+		document.querySelector("main").classList.toggle("blur-background");
+	}
+
+	document.getElementById("default").click();
+
+	function openTab(evt, tabName) {
+		var i, tabcontent, tablink;
+
+		tabcontent = document.getElementsByClassName("tab1content");
+			for (i = 0; i < tabcontent.length; i++) {
+				tabcontent[i].style.display = "none";
+			}
+
+		tablink = document.getElementsByClassName("tablink");
+		for (i = 0; i < tablink.length; i++) {
+			tablink[i].className = tablink[i].className.replace(" active", "");
+		}
+
+		document.getElementById(tabName).style.display = "block";
+		evt.currentTarget.className += " active";
+	}	
+</script>
+</body>
+</html>
+	

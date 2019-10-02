@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+
+<head>
+	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="UTF-8">
+	<link href="styles.css" rel="stylesheet">
+	<title>Cities</title>
+</head>
+
+<body>
+	<div class="lang-menu cities blurable">
+		<div><i class="fas fa-globe cities" id="lang-button"></i></div>
+		<div class="lang-drop-down cities">
+			<a id="lang" href="cities_ua.html">Українська</a>
+		</div>
+	</div>
+
+	<header class="blurable" style="background-image: url(img/cities/background.jpg);">
+		<div class="container-fluid" style="color: #0a0d0f;">
+			<div class="row justify-content-center"><h1>CITIES</h1></div>
+			<div class="row justify-content-center"><h3>Pittsburgh, Istanbul, and Tbilisi</h3></div>
+		</div>
+	</header>
+
+	<main class="cities-svg">
+
+		<div class="sticky" id="nav-bar">
+			<div class="menu-btn cities">
+  				<div class="bar1"></div>
+  				<div class="bar2"></div>
+  				<div class="bar3"></div>
+			</div>
+			<div id="nav-drop-down" class="menu-down menu-up">
+				<a href="index.html"><i class="fab fa-raspberry-pi cities"></i><span class="cities">Intro</span></a>
+				<a href="hometown.html"><i class="fas fa-home cities"></i><span class="cities">Hometown</span></a> 
+				<a href="outdoors.html"><i class="fas fa-hiking cities"></i><span class="cities">Outdoors</span></a>
+				<a href="cities.html" id="current"><i class="fas fa-city cities"></i><span class="cities">Cities</span></a>
+			</div>
+		</div>
+		
+		<div class="container-fluid blurable" style="margin-top: -2.5rem;">
+			<div class="row align-items-center presentation">	
+				
+				<div class="col-lg-4" style="margin-top: 4.3rem;">
+					<div class="article-holder cities">	
+						<div class="heading cities"><h2>Pittsburgh</h2></div>
+						<div class="col article cities">
+							<article>
+								<p>Pittsburgh is one of those cities that you definitely want to leave once you are there and that you always want to come back to once you are gone. For me, it is just the right size: there is everything I would ever want city life wise and not too big at the same time. A home to famous sports teams, one of the best symphony orchestras in the world, dozens of bridges, and peculiar inhabitants this city lies on the hills between Monongahela, Allegheny, and Ohio rivers. Winters in Pittsburgh are gloomy and void of sunshine. Quite contrary, the summers are bright and cheerful, but my favorite seasons are right in between. In spring Pittsburgh blooms with myriads of different flowers while in the fall it undergoes a tremendous metamorphosis.</p>
+								<p>Once a steel industry center nowadays Pittsburgh has managed to transform itself into a modern place. The city is divided into multiple districts and each has a unique character. Oakland holds place for the campuses of the University of Pittsburgh and the Carnegie Mellon University, Shadyside hosts all those students and professors, Mt Washington is a traditional resident district with a gorgeous view on the downtown, Lawrenceville gives you a hip vibe from its cafes, shops, and bars, Squirrel Hill is an old mostly jewish community, ... </p>
+								<p>My favorite part of the city is the Frick park - a forest in the middle of the city that harbors a ton of squirrels, chip-monks, deer, etc. It is the most tranquil place in the city that helps to escape the city itself. Over the seasons Frick changes colors, blooms, and lives its own course as a regular forest would. Park management and visitors are respective of the wildlife and lead a non-intrusive policy that allowed to preserve the park in its initial state more or less.</p>
+							</article>
+						</div>
+					</div>
+				</div>				
+
+				<div class="col-lg-8 map-gal">	
+
+					<div class="row tabs justify-content-end">
+						<button class="col-auto tablink1 cities default1" onclick="open1Tab(event, 'map-1')">Map</button>
+						<button class="col-auto tablink1 cities" onclick="open1Tab(event, 'gallery-1')">Gallery</button>
+					</div>		
+
+					<div class="map-1 tab1content cities">
+						<iframe src="https://www.google.com/maps/d/u/0/embed?mid=1Louu2eYLu2pSf2b9SoSNtVIjFDs6Za0T" width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+					</div>
+	
+					<div class="gallery-1 tab1content cities">
+						<div id="carousel-1" class="carousel slide" data-ride="carousel" data-interval="10000"> 						
+							<div class="carousel-inner">
+   								<div class="carousel-item active">
+      									<img class="d-block w-100" src="img/cities/pt-riverview1.jpg" alt="Downtown Pittsburgh">
+									<div class="carousel-caption d-none d-md-block">
+    										<h5>Downtown Pittsburgh</h5>
+    										<p>View from North Shore across Allegheny river</p>
+  									</div>    							
+								</div>
+    								<div class="carousel-item">
+      									<img class="d-block w-100" src="img/cities/pt-riverview.jpg" alt="Downtown Pittsburgh">
+									<div class="carousel-caption d-none d-md-block">
+    										<h5>Downtown Pittsburgh</h5>
+    										<p>View on Downtown from a kayak</p>
+  									</div>    							
+	    							</div>
+   								<div class="carousel-item">
+	      								<img class="d-block w-100" src="img/cities/pt-oakland.jpg" alt="Oakland">
+									<div class="carousel-caption d-none d-md-block">
+    										<h5>Oakland</h5>
+    										<p>Sunset behind the University of Pittsburgh campus</p>
+  									</div>    							
+    								</div>
+	   							<div class="carousel-item">
+      									<img class="d-block w-100" src="img/cities/pt-randyland.jpg" alt="Randyland">
+									<div class="carousel-caption d-none d-md-block">
+    										<h5>Randyland</h5>
+    										<p>An explosion of colors at local art project</p>
+  									</div>    							
+	    							</div>
+   								<div class="carousel-item">
+      									<img class="d-block w-100" src="img/cities/pt-frick.jpg" alt="Park">
+									<div class="carousel-caption d-none d-md-block">
+    										<h5>Frick park</h5>
+    										<p>Several acres of woods in the midst of the city</p>
+  									</div>    							
+	    							</div>
+   								<div class="carousel-item">
+      									<img class="d-block w-100" src="img/cities/pt-fireworks.jpg" alt="Fireworks">
+									<div class="carousel-caption d-none d-md-block">
+    										<h5>July 4th fireworks</h5>
+    										<p>View from Mt Washington</p>
+  									</div>    							
+	    							</div>
+   								<div class="carousel-item">
+      									<img class="d-block w-100" src="img/cities/pt-bridge-night.jpg" alt="Bridge at night">
+									<div class="carousel-caption d-none d-md-block">
+    										<h5>Bridge at night</h5>
+    										<p>One of my favorite tranquil places</p>
+  									</div>    							
+    								</div>
+	  						</div>
+  							<a class="carousel-control-prev" href="#carousel-1" role="button" data-slide="prev">
+    								<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    								<span class="sr-only">Previous</span>
+ 							</a>
+  							<a class="carousel-control-next" href="#carousel-1" role="button" data-slide="next">
+    								<span class="carousel-control-next-icon" aria-hidden="true"></span>
+    								<span class="sr-only">Next</span>
+	  						</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+
+		<div class="container-fluid blurable" style="margin: 2rem 0;">
+			<div class="row align-items-center presentation">
+	
+				<div class="col-lg-4" style="margin-top: 4.3rem;">
+					<div class="article-holder cities">	
+						<div class="heading cities"><h2>Istanbul</h2></div>
+						<div class="col article cities">
+							<article>
+								<p>Centuries of history, monumental architecture, over 20 million of people, and mild climate make Istanbul one of the best places to visit. The one remarkable thing about it is that the city is huge in the sense that is rather difficult to grasp. I mean, New York is also huge, but you know it when you are in New York. Istanbul is different, this city has managed to preserve its history, feeling of compactness, windy street layout and well just about any feature of a small town, but then you would need to multiply that by a factor of ... a lot! The Istanbul effect can only be felt upon a visit as you travel through it and keep realizing that it just never ends.</p>
+								<p>Countless things have been said about this city and I don't mean to ever amount to them, but I can add a few words of my own experience. The first thing that a visitor feels here is that nobody seems to care about you while at the same time you feel welcome. People are friendly and will go out of their way to help you out even if you don't share a common language. The city blooms with local businesses: shops, restaurants, cafes, hookah places, cafes, restaurants, and cafes again. All of this happens in the midst of some unbelievable ancient architecture that acts as if an out-of-time observer. The mosques are magnificent and elegant, the Hagia Sophia bewilders with its age, but the most history is definitely in the paved windy streets, a googol of stories untold.</p>
+							</article>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-lg-8 map-gal order-last order-lg-first">
+					<div class="row tabs justify-content-end">
+						<button class="col-auto tablink2 cities default2" onclick="open2Tab(event, 'map-2')">Map</button>
+						<button class="col-auto tablink2 cities" onclick="open2Tab(event, 'gallery-2')">Gallery</button>
+					</div>
+
+					<div class="map-2 tab2content cities">
+						<iframe src="https://www.google.com/maps/d/embed?mid=1_BtB-f4bfnLu6A9btQUAEz2xb53UcvG5&hl=en" width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+					</div>
+
+					<div class="gallery-2 tab2content cities">
+						<div id="carousel-2" class="carousel slide" data-ride="carousel" data-interval="10000"> 						
+							<div class="carousel-inner">
+   								<div class="carousel-item active">
+      									<img class="d-block w-100" src="img/cities/is-bosphorus.jpg" alt="Bosphorus">
+									<div class="carousel-caption d-none d-md-block">
+    										<h5>Bosphorus</h5>
+    										<p>View on the Maiden Tower</p>
+  									</div>    							
+								</div>
+	    							<div class="carousel-item">
+      									<img class="d-block w-100" src="img/cities/is-golden-horn.jpg" alt="Golden Horn">
+									<div class="carousel-caption d-none d-md-block">
+    										<h5>Golden Horn</h5>
+    										<p>View from Suleymaniye</p>
+  									</div>    							
+    								</div>
+	   							<div class="carousel-item">
+      									<img class="d-block w-100" src="img/cities/is-suleymaniye.jpg" alt="Suleymaniye">
+									<div class="carousel-caption d-none d-md-block">
+    										<h5>Suleymaniye</h5>
+    										<p>One of the most elegant mosques</p>
+  									</div>    							
+    								</div>
+	   							<div class="carousel-item">
+      									<img class="d-block w-100" src="img/cities/is-suleymaniye-inside.jpg" alt="Inside of Suleymaniye">
+									<div class="carousel-caption d-none d-md-block">
+    										<h5>Inside of Suleymaniye</h5>
+    										<p>Amazing vibrant calligraphy</p>
+  									</div>    							
+    								</div>
+	   							<div class="carousel-item">
+      									<img class="d-block w-100" src="img/cities/is-blue-mosque.jpg" alt="Inside of Blue Mosque">
+									<div class="carousel-caption d-none d-md-block">
+    										<h5>Inside of Blue Mosque</h5>
+    										<p>Yet another example of combination of grace and magnitude</p>
+  									</div>    							
+    								</div>
+	   							<div class="carousel-item">
+      									<img class="d-block w-100" src="img/cities/is-black-sea.jpg" alt="Black Sea beach">
+									<div class="carousel-caption d-none d-md-block">
+    										<h5>Black Sea beach</h5>
+    										<p>North of the city</p>
+  									</div>    							
+    								</div>
+	   							<div class="carousel-item">
+      									<img class="d-block w-100" src="img/cities/is-rumelifeneri.jpg" alt="Rumelifeneri">
+									<div class="carousel-caption d-none d-md-block">
+    										<h5>Rumelifeneri</h5>
+    										<p>When you are in Istanbul you too begin to appreciate the night</p>
+  									</div>    							
+    								</div>
+	  						</div>
+  							<a class="carousel-control-prev" href="#carousel-2" role="button" data-slide="prev">
+    								<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    								<span class="sr-only">Previous</span>
+ 							</a>
+  							<a class="carousel-control-next" href="#carousel-2" role="button" data-slide="next">
+    								<span class="carousel-control-next-icon" aria-hidden="true"></span>
+    								<span class="sr-only">Next</span>
+	  						</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="container-fluid blurable" style="margin: 2rem 0 0 0; padding-bottom: 2rem;">
+			<div class="row align-items-center presentation">
+	
+				<div class="col-lg-4" style="margin-top: 4.3rem;">
+					<div class="article-holder cities">	
+						<div class="heading cities"><h2>Tbilisi</h2></div>
+						<div class="col article cities">
+							<article>
+								<p>I only visited Tbilisi for short (oh so very short) couple of days, but it definitely left a mark in my heart. The capital of Georgia is a warm welcoming place of fantastic people, beautiful music, delicious food, rich wine, and gorgeous ancient churches.</p>
+								<p>Tbilisi remarkably combines centuries of history with the modern architecture in a way that the place flows from the hills down to the Mtkvari river. One fifth of Georgian population lives in Tbilisi. One million out of five. So you can see that it's a small nation, but once you get to know Georgians, you definitely would want to stay connected. Their friendliness and cheerfulness developed in an area where much bigger nations surrounded them and wanted to have their territories. It led them to build a unique sense of self-identity, which can be seen in their traditions. One of such instances embodied itself in the iconic Kartlis Deda statue in Tbilisi: in the one hand it holds a welcoming horn filled with wine for the friends while in the other - a sword for the foes.</p>
+								<p>This unique sense of Georgian self embodies itself as well in their appreciation of family traditions. In comparison to other nations, here you can be assured to never be left alone, forgotten, or lacking attention. Georgians take pride in their connectedness, and try pass it down to the generations. One of the remarkable purely Georgian family traditions is connected with wine. When a son is born the family places a 800 litres jar of wine (kvevri) in the ground and seal it off. It is opened a couple decades later for the celebration of that son's wedding.</p>
+							</article>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-lg-8 map-gal">
+
+					<div class="row tabs justify-content-end">
+						<button class="col-auto tablink3 cities default3" onclick="open3Tab(event, 'map-3')">Map</button>
+						<button class="col-auto tablink3 cities" onclick="open3Tab(event, 'gallery-3')">Gallery</button>
+					</div>
+
+					<div class="map-3 tab3content cities">
+						<iframe src="https://www.google.com/maps/d/u/0/embed?mid=1wEiQ6KA5xz8QFRqZkbtmb-6IAiCj09Ee" width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+					</div>
+
+					<div class="gallery-3 tab3content cities">
+						<div id="carousel-3" class="carousel slide" data-ride="carousel" data-interval="10000"> 						
+							<div class="carousel-inner">
+   								<div class="carousel-item active">
+      									<img class="d-block w-100" src="img/cities/tb-view.jpg" alt="Tbilisi">
+									<div class="carousel-caption d-none d-md-block">
+    										<h5>Tbilisi</h5>
+    										<p>A city that plants a warm seed inside</p>
+  									</div>    							
+								</div>
+    								<div class="carousel-item">
+      									<img class="d-block w-100" src="img/cities/tb-houses.jpg" alt="Houses">
+									<div class="carousel-caption d-none d-md-block">
+    										<h5>Houses in the Old City</h5>
+  									</div>    							
+    								</div>
+   								<div class="carousel-item">
+	      								<img class="d-block w-100" src="img/cities/tb-church.jpg" alt="Holy Trinity Cathedral">
+									<div class="carousel-caption d-none d-md-block">
+    										<h5>Tsminda Sameba Cathedral</h5>
+    										<p>Seen from nearly any part of the city</p>
+  									</div>    							
+    								</div>
+   								<div class="carousel-item">
+	      								<img class="d-block w-100" src="img/cities/tb-cafe.jpg" alt="Cafe at night">
+									<div class="carousel-caption d-none d-md-block">
+    										<h5>Rezo Gabriadze Marionette Theater</h5>
+  									</div>    							
+    								</div>
+  							</div>
+  							<a class="carousel-control-prev" href="#carousel-3" role="button" data-slide="prev">
+	    							<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    								<span class="sr-only">Previous</span>
+ 							</a>
+  							<a class="carousel-control-next" href="#carousel-3" role="button" data-slide="next">
+    								<span class="carousel-control-next-icon" aria-hidden="true"></span>
+    								<span class="sr-only">Next</span>
+  							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</main>
+
+	<footer class="blurable cities">
+		<div class="row justify-content-center" style="margin: 0;">
+			<div class="col-auto">All rights reserved &copy;2019. Made in Istanbul<br />Powered by Bootstrap.CSS</div>
+		</div>
+	</footer>
+
+<script src='https://kit.fontawesome.com/a076d05399.js'></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	
+<script>			
+	document.querySelector(".menu-btn > div").addEventListener("click", function(e) {
+  		e.stopPropagation();
+		e.preventDefault();
+	});
+
+	document.querySelector(".menu-btn").addEventListener("click", menuBtnTransform);
+	document.querySelector(".menu-btn").addEventListener("click", dropDownMenu);
+	document.querySelector(".menu-btn").addEventListener("click", blur);
+	document.getElementById("lang-button").addEventListener("click", langMenu);
+
+	function langMenu () {
+		document.querySelector(".lang-drop-down").classList.toggle("down");
+	}
+
+	function menuBtnTransform() {
+  		var x = document.getElementsByClassName("menu-btn");
+		for (var a = 0; a < x.length; a++) {
+			var b = x[a];
+			b.classList.toggle("change");
+		}
+	}
+
+	function dropDownMenu() {
+		document.getElementById("nav-drop-down").classList.toggle("menu-up");
+	}
+
+	window.onclick = function(event) {
+  		if (!event.target.matches('.menu-btn')) {
+    			var dropdown = document.getElementById("nav-drop-down");
+      			if (!dropdown.classList.contains('menu-up')) {
+      				dropdown.classList.add('menu-up');
+    			}
+
+			document.querySelector(".menu-btn").classList.remove('change');
+
+			var deblur = document.getElementsByClassName("blurable");
+			for (var a = 0; a < deblur.length; a++) {
+				deblur[a].classList.remove("blur");
+			}
+
+			document.querySelector("main").classList.remove("blur-background");
+  		}
+		if (!event.target.matches('#lang-button')) {
+			document.querySelector(".lang-drop-down").classList.remove("down");
+		}
+	}
+
+	function blur() {
+		var a = document.getElementsByClassName("blurable");
+		for (var b = 0; b < a.length; b++) {
+			a[b].classList.toggle("blur");
+		}
+
+		document.querySelector("main").classList.toggle("blur-background");
+	}
+
+	document.querySelector(".default1").click();
+	document.querySelector(".default2").click();
+	document.querySelector(".default3").click();
+
+	function open1Tab(evt, tabName) {
+		var i, tabcontent, tablink;
+
+		tabcontent = document.getElementsByClassName("tab1content");
+			for (i = 0; i < tabcontent.length; i++) {
+				tabcontent[i].style.display = "none";
+			}
+
+		tablink = document.getElementsByClassName("tablink1");
+		for (i = 0; i < tablink.length; i++) {
+			tablink[i].className = tablink[i].className.replace(" active", "");
+		}
+
+		var k = document.getElementsByClassName(tabName); 
+			for (var a = 0; a < k.length; a++) {
+				var b = k[a];
+				b.style.display = "block";
+			}
+		evt.currentTarget.className += " active";
+	}
+
+	function open2Tab(evt, tabName) {
+		var i, tabcontent, tablink;
+
+		tabcontent = document.getElementsByClassName("tab2content");
+			for (i = 0; i < tabcontent.length; i++) {
+				tabcontent[i].style.display = "none";
+			}
+
+		tablink = document.getElementsByClassName("tablink2");
+		for (i = 0; i < tablink.length; i++) {
+			tablink[i].className = tablink[i].className.replace(" active", "");
+		}
+
+		var k = document.getElementsByClassName(tabName); 
+			for (var a = 0; a < k.length; a++) {
+				var b = k[a];
+				b.style.display = "block";
+			}
+		evt.currentTarget.className += " active";
+	}
+
+	function open3Tab(evt, tabName) {
+		var i, tabcontent, tablink;
+
+		tabcontent = document.getElementsByClassName("tab3content");
+			for (i = 0; i < tabcontent.length; i++) {
+				tabcontent[i].style.display = "none";
+			}
+
+		tablink = document.getElementsByClassName("tablink3");
+		for (i = 0; i < tablink.length; i++) {
+			tablink[i].className = tablink[i].className.replace(" active", "");
+		}
+
+		var k = document.getElementsByClassName(tabName); 
+			for (var a = 0; a < k.length; a++) {
+				var b = k[a];
+				b.style.display = "block";
+			}
+		evt.currentTarget.className += " active";
+	}	
+</script>
+</body>
+</html>
+	

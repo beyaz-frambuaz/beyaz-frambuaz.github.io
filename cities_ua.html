@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+
+<html lang="uk">
+
+<head>
+	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="UTF-8">
+	<link href="styles.css" rel="stylesheet">
+	<title>Міста</title>
+</head>
+
+<body>
+	<div class="lang-menu cities blurable">
+		<div><i class="fas fa-globe cities" id="lang-button"></i></div>
+		<div class="lang-drop-down cities">
+			<a id="lang" href="cities.html">English</a>
+		</div>
+	</div>
+
+	<header class="blurable" style="background-image: url(img/cities/background.jpg);">
+		<div class="container-fluid" style="color: #0a0d0f;">
+			<div class="row justify-content-center"><h1>Міста</h1></div>
+			<div class="row justify-content-center"><h3>Піттсбург, Стамбул і Тбілісі</h3></div>
+		</div>
+	</header>
+
+	<main class="cities-svg">
+
+		<div class="sticky" id="nav-bar">
+			<div class="menu-btn cities">
+  				<div class="bar1"></div>
+  				<div class="bar2"></div>
+  				<div class="bar3"></div>
+			</div>
+			<div id="nav-drop-down" class="menu-down menu-up">
+				<a href="index_ua.html"><i class="fab fa-raspberry-pi cities"></i><span class="cities">Вступ</span></a>
+				<a href="hometown_ua.html"><i class="fas fa-home cities"></i><span class="cities">Дім</span></a> 
+				<a href="outdoors_ua.html"><i class="fas fa-hiking cities"></i><span class="cities">Гори</span></a>
+				<a href="cities_ua.html" id="current"><i class="fas fa-city cities"></i><span class="cities">Міста</span></a>
+			</div>
+		</div>
+		
+		<div class="container-fluid blurable" style="margin-top: -2.5rem;">
+			<div class="row align-items-center presentation">	
+				
+				<div class="col-lg-4" style="margin-top: 4.3rem;">
+					<div class="article-holder cities">	
+						<div class="heading cities"><h2>Піттсбург</h2></div>
+						<div class="col article cities">
+							<article>
+								<p>Піттсбург - одне із тих міст, звідки хочеться поїхати, трохи поживши там, і куди хочеться повернутись, як тільки виїжджаєш. По праву можу називати його своїм містом, адже нас пов'язують шість років спільних пригод. Для мене Пітт суперське місто: достатньо велике, щоби мати усі принади міського життя, та у той самий час не завелике. Велике місто, або малий мегаполіс - то вже кому як зручно класифікувати. Домівка для знаменитих спортивних команд, одного із найфайніших симфонічних оркестрів планети, десятків мостів та дивакуватих мешканців - Піттсбург розлігся на пагорбах західної Пеннсильванії межи трьох річок: Мононгахейла, Аллегені та Огайо. Зими в Піттсбурзі - це похмурі та дипресивні п'ять місяців, коли сонце не пробивається через кілька прошарків хмар; натомість влітку місто добряче прогрівається теплим сонечком і на обличчях його мешканців з'являються посмішки. Та мої улюблені сезони міста то весна і осінь, адже навесні Пітт убирається розмаїттям квітів та приємних ароматів, а восени місто огортає затишна барвиста меланхолія.</p>
+								<p>Колишній центр сталеварень та видобутку вугілля переріс у доволі сучасне місто. Пітт умовно поділений на райони, кожен зі своїм унікальним характером. Окленд - то домівка для Піттсбурзького Університету та Університету Карнегі Меллон, Шейдісайд привітно уміщує в собі усих тих студентів та професуру, Маунт Вашингтон є традиційним районом, де проживають корінні жителі на пагорбі з шикарним краєвидом на дивакуваті хмарочоси даунтауну, Лоренсвіль здатен здивувати хіпстерською атмосферою зі своїми кафешками, магазинчиками та барами, Сквірел Хілл - традиційна здебільшого єврейська община, ...</p>
+								<p>Моє улюблене місце то Фрік парк - кілька десятків гектарів лісу посеред міста, домівка для безлічі білок, вертлявих бурундучків, оленів тощо. Це найспокійніше місце, до можна за кілька годин добряче абстрагуватись від міського шуму та зняти напругу. Я спостерігав за парком кілька років і тішився із його сезонних метаморфозів які притаманні власне справжньому лісу. Управління парку та відвідувачі з повагою сталяться до його природи та ведуть політику мінімального втручання, що і допомогло зберегти природу парку у її більш-менш початковому стані.</p>
+							</article>
+						</div>
+					</div>
+				</div>				
+
+				<div class="col-lg-8 map-gal">	
+
+					<div class="row tabs justify-content-end">
+						<button class="col-auto tablink1 cities default1" onclick="open1Tab(event, 'map-1')">Мапа</button>
+						<button class="col-auto tablink1 cities" onclick="open1Tab(event, 'gallery-1')">Галерея</button>
+					</div>		
+
+					<div class="map-1 tab1content cities">
+						<iframe src="https://www.google.com/maps/d/u/0/embed?mid=1Louu2eYLu2pSf2b9SoSNtVIjFDs6Za0T" width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+					</div>
+	
+					<div class="gallery-1 tab1content cities">
+						<div id="carousel-1" class="carousel slide" data-ride="carousel" data-interval="10000"> 						
+							<div class="carousel-inner">
+   								<div class="carousel-item active">
+      									<img class="d-block w-100" src="img/cities/pt-riverview1.jpg" alt="Downtown Pittsburgh">
+									<div class="carousel-caption d-none d-md-block">
+    										<h5>Даунтаун</h5>
+    										<p>Краєвид із Норс Шор через річу Аллегені</p>
+  									</div>    							
+								</div>
+    								<div class="carousel-item">
+      									<img class="d-block w-100" src="img/cities/pt-riverview.jpg" alt="Downtown Pittsburgh">
+									<div class="carousel-caption d-none d-md-block">
+    										<h5>Даунтаун</h5>
+    										<p>Вид з місця, де Аллегені та Мононгахейла формують річку Огайо</p>
+  									</div>    							
+	    							</div>
+   								<div class="carousel-item">
+	      								<img class="d-block w-100" src="img/cities/pt-oakland.jpg" alt="Oakland">
+									<div class="carousel-caption d-none d-md-block">
+    										<h5>Оклент</h5>
+    										<p>Захід сонця поза капмусом Піттсбурзького Університету</p>
+  									</div>    							
+    								</div>
+	   							<div class="carousel-item">
+      									<img class="d-block w-100" src="img/cities/pt-randyland.jpg" alt="Randyland">
+									<div class="carousel-caption d-none d-md-block">
+    										<h5>Ренділенд</h5>
+    										<p>Вибух колорів, місцевий постійний художній проект</p>
+  									</div>    							
+	    							</div>
+   								<div class="carousel-item">
+      									<img class="d-block w-100" src="img/cities/pt-frick.jpg" alt="Park">
+									<div class="carousel-caption d-none d-md-block">
+    										<h5>Фрік парк</h5>
+    										<p>Спокій іде, спокій іде...</p>
+  									</div>    							
+	    							</div>
+   								<div class="carousel-item">
+      									<img class="d-block w-100" src="img/cities/pt-fireworks.jpg" alt="Fireworks">
+									<div class="carousel-caption d-none d-md-block">
+    										<h5>Феєрверк на 4 липня</h5>
+    										<p>Вигляд з Мант Вашингтон</p>
+  									</div>    							
+	    							</div>
+   								<div class="carousel-item">
+      									<img class="d-block w-100" src="img/cities/pt-bridge-night.jpg" alt="Bridge at night">
+									<div class="carousel-caption d-none d-md-block">
+    										<h5>Один із мостів поночі</h5>
+    										<p>Моє тихе місце на березі Мононгахейли</p>
+  									</div>    							
+    								</div>
+	  						</div>
+  							<a class="carousel-control-prev" href="#carousel-1" role="button" data-slide="prev">
+    								<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    								<span class="sr-only">Previous</span>
+ 							</a>
+  							<a class="carousel-control-next" href="#carousel-1" role="button" data-slide="next">
+    								<span class="carousel-control-next-icon" aria-hidden="true"></span>
+    								<span class="sr-only">Next</span>
+	  						</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+
+		<div class="container-fluid blurable" style="margin: 2rem 0;">
+			<div class="row align-items-center presentation">
+	
+				<div class="col-lg-4" style="margin-top: 4.3rem;">
+					<div class="article-holder cities">	
+						<div class="heading cities"><h2>Стамбул</h2></div>
+						<div class="col article cities">
+							<article>
+								<p>Сторіччя історії, монументальна архітектура, за 20 мільйонів мешканців та м'який клімат приваблюють до цього міста. Одна із беззаперечних якостей цього міста - це його розміри, які доволі важко навіть охопити. Маю на увазі, що, до прикладу, Нью Йорк теж великий, але його велич усвідомлюється, коли там знаходишся. Натомість Стамбул відрізняється у тому сенсі, що він спромігся зберегти свою історичну ідентичність та компактність окремих районів, звивисті вулички та інші ознаки невеликого міста, але потім усе це треба просто помножити на ... дуже багато! Еффект Стамбула можна відчути тільки відвідавши місто, коли їдеш годинами і розумієш, що воно просто безмежне.</p>
+								<p>Безліч слів уже сказано про Стамбул, і я не намагатимусь осягнути усю його велич, лиш привнесу трохи своїх вражень. Перше, що відчуває черговий гість це натовп, якому немає жодної справи до тебе, але водночас він і без проблем приймає нового приїжджого. Люди доволі привітні та справді готові допомогти особливо іноземцям. Місто майоріє невеличкими магазинчиками, ресторанами, кафешками, кальянними, кафешками, ресторанами і знову кафешками. І все це - серед стародавньої неймовірної архітектури, де мечеті - то вічні споглядачі із минулого. Саме мечеті вражають вишуканістю та поєднанням елегантності з величчю, а Ая-Софія заворожує своїм віком, хоча більшість неросказаних бородатих історій - у тих самий вуличках, вимощених бурківкою.</p>
+							</article>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-lg-8 map-gal order-last order-lg-first">
+					<div class="row tabs justify-content-end">
+						<button class="col-auto tablink2 cities default2" onclick="open2Tab(event, 'map-2')">Мапа</button>
+						<button class="col-auto tablink2 cities" onclick="open2Tab(event, 'gallery-2')">Галерея</button>
+					</div>
+
+					<div class="map-2 tab2content cities">
+						<iframe src="https://www.google.com/maps/d/embed?mid=1_BtB-f4bfnLu6A9btQUAEz2xb53UcvG5&hl=en" width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+					</div>
+
+					<div class="gallery-2 tab2content cities">
+						<div id="carousel-2" class="carousel slide" data-ride="carousel" data-interval="10000"> 						
+							<div class="carousel-inner">
+   								<div class="carousel-item active">
+      									<img class="d-block w-100" src="img/cities/is-bosphorus.jpg" alt="Bosphorus">
+									<div class="carousel-caption d-none d-md-block">
+    										<h5>Босфор</h5>
+    										<p>Вид на Дівочу Вежу</p>
+  									</div>    							
+								</div>
+	    							<div class="carousel-item">
+      									<img class="d-block w-100" src="img/cities/is-golden-horn.jpg" alt="Golden Horn">
+									<div class="carousel-caption d-none d-md-block">
+    										<h5>Золотий Ріг</h5>
+    										<p>Позаду Сулейманіє</p>
+  									</div>    							
+    								</div>
+	   							<div class="carousel-item">
+      									<img class="d-block w-100" src="img/cities/is-suleymaniye.jpg" alt="Suleymaniye">
+									<div class="carousel-caption d-none d-md-block">
+    										<h5>Сулейманіє</h5>
+    										<p>Одна із найелегантніших мечетей</p>
+  									</div>    							
+    								</div>
+	   							<div class="carousel-item">
+      									<img class="d-block w-100" src="img/cities/is-suleymaniye-inside.jpg" alt="Inside of Suleymaniye">
+									<div class="carousel-caption d-none d-md-block">
+    										<h5>Всередині Сулейманіє</h5>
+    										<p>Пронизлива легкість каліграфії</p>
+  									</div>    							
+    								</div>
+	   							<div class="carousel-item">
+      									<img class="d-block w-100" src="img/cities/is-blue-mosque.jpg" alt="Inside of Blue Mosque">
+									<div class="carousel-caption d-none d-md-block">
+    										<h5>Всередині Блакитної Мечеті</h5>
+    										<p>Іще один приклад поєднання легкості із могуттю</p>
+  									</div>    							
+    								</div>
+	   							<div class="carousel-item">
+      									<img class="d-block w-100" src="img/cities/is-black-sea.jpg" alt="Black Sea beach">
+									<div class="carousel-caption d-none d-md-block">
+    										<h5>Чорне Море</h5>
+    										<p>Північний район міста</p>
+  									</div>    							
+    								</div>
+	   							<div class="carousel-item">
+      									<img class="d-block w-100" src="img/cities/is-rumelifeneri.jpg" alt="Rumelifeneri">
+									<div class="carousel-caption d-none d-md-block">
+    										<h5>Румеліфенері</h5>
+    										<p>У Стамбулі починаєш цінувати романтику ночі</p>
+  									</div>    							
+    								</div>
+	  						</div>
+  							<a class="carousel-control-prev" href="#carousel-2" role="button" data-slide="prev">
+    								<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    								<span class="sr-only">Previous</span>
+ 							</a>
+  							<a class="carousel-control-next" href="#carousel-2" role="button" data-slide="next">
+    								<span class="carousel-control-next-icon" aria-hidden="true"></span>
+    								<span class="sr-only">Next</span>
+	  						</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="container-fluid blurable" style="margin: 2rem 0 0 0; padding-bottom: 2rem;">
+			<div class="row align-items-center presentation">
+	
+				<div class="col-lg-4" style="margin-top: 4.3rem;">
+					<div class="article-holder cities">	
+						<div class="heading cities"><h2>Тбілісі</h2></div>
+						<div class="col article cities">
+							<article>
+								<p>Я відвідав Тбілісі лишень на якихось пару (о яких коротких!) днів, та місто посіло особливе місце у моєму серці. Столиця Грузії - привітна і тепла домівка чудових людей, гарної музики, неперевершеної кухні, багатого вина та дивовижних стародавніх церков.</p>
+								<p>Тбілісі неповторно поєднує у собі століття історії із модерною архітектурою, плавно стікаючи із пагорбів до русла Мткварі. Одна п'ята населення Грузії мешкає тут, один мільйон із п'яти. Ця невелика нація вражає привітністю та радістю життю, познайомившись із грузинами, назавжди хочеться зберегти цей зв'язок. Їх позитивність та самоствердженість історично розвивались в умовах оточення більшими націями охочими до грузинських земель. Це змусило грузинів розвинути унікальну і лише їм притаманну самоідентичнисть, яка скірзь проступає у традиціях. Одна із таких знайшла вираз у знаковій Мати Карлі: в одній руці вона тримає келих із вином для друзів, а в іншій - меч для непрошених гостей.</p>
+								<p>Грузинський сенс самості уособлюється у їх пошані до сімейних традицій. Тут кожен знає, що він не один, ніколи не забутий, не залишений без уваги. Грузини пишаються своїми міцними сімейними узами та намагаються пронести цю цінність із покоління у покоління. Одна із характерних грузинських традицій пов'язана, звісно ж, із вином. Коли в сім'ї народжується син, у землю встановлюють квеврі десь так літрів на 800 та наповнюють його по вінця домашнім вином. Вино відстоюється роками і квеврі відкривають на весіллі сина.</p>
+							</article>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-lg-8 map-gal">
+
+					<div class="row tabs justify-content-end">
+						<button class="col-auto tablink3 cities default3" onclick="open3Tab(event, 'map-3')">Мапа</button>
+						<button class="col-auto tablink3 cities" onclick="open3Tab(event, 'gallery-3')">Галерея</button>
+					</div>
+
+					<div class="map-3 tab3content cities">
+						<iframe src="https://www.google.com/maps/d/u/0/embed?mid=1wEiQ6KA5xz8QFRqZkbtmb-6IAiCj09Ee" width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+					</div>
+
+					<div class="gallery-3 tab3content cities">
+						<div id="carousel-3" class="carousel slide" data-ride="carousel" data-interval="10000"> 						
+							<div class="carousel-inner">
+   								<div class="carousel-item active">
+      									<img class="d-block w-100" src="img/cities/tb-view.jpg" alt="Tbilisi">
+									<div class="carousel-caption d-none d-md-block">
+    										<h5>Тбілісі</h5>
+    										<p>Місто, що залишає зарнятко тепла у душі</p>
+  									</div>    							
+								</div>
+    								<div class="carousel-item">
+      									<img class="d-block w-100" src="img/cities/tb-houses.jpg" alt="Houses">
+									<div class="carousel-caption d-none d-md-block">
+    										<h5>Будиночки Старого Міста</h5>
+  									</div>    							
+    								</div>
+   								<div class="carousel-item">
+	      								<img class="d-block w-100" src="img/cities/tb-church.jpg" alt="Holy Trinity Cathedral">
+									<div class="carousel-caption d-none d-md-block">
+    										<h5>Собор Цмінда Самеба</h5>
+    										<p>Святу Трійцю видко майже звідусіль по місту</p>
+  									</div>    							
+    								</div>
+   								<div class="carousel-item">
+	      								<img class="d-block w-100" src="img/cities/tb-cafe.jpg" alt="Cafe at night">
+									<div class="carousel-caption d-none d-md-block">
+    										<h5>Театр маріонеток Резо Габріадзе</h5>
+  									</div>    							
+    								</div>
+  							</div>
+  							<a class="carousel-control-prev" href="#carousel-3" role="button" data-slide="prev">
+	    							<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    								<span class="sr-only">Previous</span>
+ 							</a>
+  							<a class="carousel-control-next" href="#carousel-3" role="button" data-slide="next">
+    								<span class="carousel-control-next-icon" aria-hidden="true"></span>
+    								<span class="sr-only">Next</span>
+  							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</main>
+
+	<footer class="blurable cities">
+		<div class="row justify-content-center" style="margin: 0;">
+			<div class="col-auto">Усі права захищено &copy;2019. Створено у Стамбулі<br />Піживлено Bootstrap.CSS</div>
+		</div>
+	</footer>
+
+<script src='https://kit.fontawesome.com/a076d05399.js'></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	
+<script>			
+	document.querySelector(".menu-btn > div").addEventListener("click", function(e) {
+  		e.stopPropagation();
+		e.preventDefault();
+	});
+
+	document.querySelector(".menu-btn").addEventListener("click", menuBtnTransform);
+	document.querySelector(".menu-btn").addEventListener("click", dropDownMenu);
+	document.querySelector(".menu-btn").addEventListener("click", blur);
+	document.getElementById("lang-button").addEventListener("click", langMenu);
+
+	function langMenu () {
+		document.querySelector(".lang-drop-down").classList.toggle("down");
+	}
+
+	function menuBtnTransform() {
+  		var x = document.getElementsByClassName("menu-btn");
+		for (var a = 0; a < x.length; a++) {
+			var b = x[a];
+			b.classList.toggle("change");
+		}
+	}
+
+	function dropDownMenu() {
+		document.getElementById("nav-drop-down").classList.toggle("menu-up");
+	}
+
+	window.onclick = function(event) {
+  		if (!event.target.matches('.menu-btn')) {
+    			var dropdown = document.getElementById("nav-drop-down");
+      			if (!dropdown.classList.contains('menu-up')) {
+      				dropdown.classList.add('menu-up');
+    			}
+
+			document.querySelector(".menu-btn").classList.remove('change');
+
+			var deblur = document.getElementsByClassName("blurable");
+			for (var a = 0; a < deblur.length; a++) {
+				deblur[a].classList.remove("blur");
+			}
+
+			document.querySelector("main").classList.remove("blur-background");
+  		}
+		if (!event.target.matches('#lang-button')) {
+			document.querySelector(".lang-drop-down").classList.remove("down");
+		}
+	}
+
+	function blur() {
+		var a = document.getElementsByClassName("blurable");
+		for (var b = 0; b < a.length; b++) {
+			a[b].classList.toggle("blur");
+		}
+
+		document.querySelector("main").classList.toggle("blur-background");
+	}
+
+	document.querySelector(".default1").click();
+	document.querySelector(".default2").click();
+	document.querySelector(".default3").click();
+
+	function open1Tab(evt, tabName) {
+		var i, tabcontent, tablink;
+
+		tabcontent = document.getElementsByClassName("tab1content");
+			for (i = 0; i < tabcontent.length; i++) {
+				tabcontent[i].style.display = "none";
+			}
+
+		tablink = document.getElementsByClassName("tablink1");
+		for (i = 0; i < tablink.length; i++) {
+			tablink[i].className = tablink[i].className.replace(" active", "");
+		}
+
+		var k = document.getElementsByClassName(tabName); 
+			for (var a = 0; a < k.length; a++) {
+				var b = k[a];
+				b.style.display = "block";
+			}
+		evt.currentTarget.className += " active";
+	}
+
+	function open2Tab(evt, tabName) {
+		var i, tabcontent, tablink;
+
+		tabcontent = document.getElementsByClassName("tab2content");
+			for (i = 0; i < tabcontent.length; i++) {
+				tabcontent[i].style.display = "none";
+			}
+
+		tablink = document.getElementsByClassName("tablink2");
+		for (i = 0; i < tablink.length; i++) {
+			tablink[i].className = tablink[i].className.replace(" active", "");
+		}
+
+		var k = document.getElementsByClassName(tabName); 
+			for (var a = 0; a < k.length; a++) {
+				var b = k[a];
+				b.style.display = "block";
+			}
+		evt.currentTarget.className += " active";
+	}
+
+	function open3Tab(evt, tabName) {
+		var i, tabcontent, tablink;
+
+		tabcontent = document.getElementsByClassName("tab3content");
+			for (i = 0; i < tabcontent.length; i++) {
+				tabcontent[i].style.display = "none";
+			}
+
+		tablink = document.getElementsByClassName("tablink3");
+		for (i = 0; i < tablink.length; i++) {
+			tablink[i].className = tablink[i].className.replace(" active", "");
+		}
+
+		var k = document.getElementsByClassName(tabName); 
+			for (var a = 0; a < k.length; a++) {
+				var b = k[a];
+				b.style.display = "block";
+			}
+		evt.currentTarget.className += " active";
+	}	
+</script>
+</body>
+</html>
+	

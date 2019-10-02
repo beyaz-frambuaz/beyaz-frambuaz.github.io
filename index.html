@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+
+     <head>
+         <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+         <meta charset="UTF-8">
+	   <link href="styles.css" rel="stylesheet">
+         <title>My Webpage</title>
+     </head>
+
+	<body>
+		<div class="lang-menu index">
+			<div><i class="fas fa-globe index" id="lang-button"></i></div>
+			<div class="lang-drop-down index">
+				<a id="lang" href="index_ua.html">Українська</a>
+			</div>
+		</div>
+
+		<div id="parallax1" class="no-gutter container-fluid">
+			<div class="row justify-content-lg-center" style="height: 100%;">
+				<div id="caption" class="col-lg-auto align-self-center">
+					<span>WELCOME TO @BEYAZ-FRAMBUAZ WEBSITE</span>
+				</div>
+			</div>
+		</div>
+
+		<div id="intro" class="no-gutter container-fluid"> 
+			<article style="font-size: 1.2em; color: #18181b;"><h1>MOTIVATION</h1>
+			<p>I am currently learning to code with Harvard's CS50 course and they offered to make a website as one of the assignments. I decided to take this opportunity to tell a couple of my memorable stories.</p>
+			<p>Over the almost-30 (holly <em>^&%@!#</em>) years of my life I've been blessed with enough adventures, travels, cities and countries I lived at that I can call myself a citizen of this planet. Yet even this website is being drafted pretty far away from my birthplace.</p>
+			<p>I was born in a small town in central Ukraine. My hometown was a pleasant place to spend a childhood, but as I grew older I realized that the place reeked of stagnation and a peculiar sense of hopelessness, one that can only be experienced by those born and raised there. Anyhow, since my high-school years I dreamt of other places, far away countries, new cities, ..</p>
+			<p>Dreams did come true and since then I lived in 4 different cities, 2 other countries, climbed a few mountains and tried a ton of food I had no idea existed! Might not sound like too much, but it's not the quantity that matters, rather the path.</p>
+			<p>This website is a tribute to some of those adventures. It show my hometown of Zhovti Vody, some of my outdoors journeys and the cities I've lived in or visited.</p></article>
+		</div>
+
+		<div id="parallax2" class="no-gutter container-fluid"></div>
+
+		<div id="parallax3" class="no-gutter container-fluid">
+			<div class="dark sticky" style="background-color: #484851;">However, before we set on the journey - a bit about myself</div>
+		</div>
+		
+		<div id="parallax4" class="container-fluid">
+			<div class="row align-items-center" style="height: 100%; padding-bottom: 2rem;">
+				<div class="col-md-4" style="text-align:center; padding-top: 2rem; padding-bottom: 2rem;" id="portrait">
+					<span style="color: #f2f2f3; letter-spacing: 2px;">Click on me</span>
+					<img src="img/index/portrait.jpg" class="responsive" alt="portrait in black and white">
+
+					<div class="overlay">
+						<div class="overlay-text">
+							<p>I am @beyaz-frambuaz</p>
+							<p>Learning to code with CS50</p>
+							<p>Dreaming of my own place and a cat!</p>
+						</div>
+					</div>
+				</div>
+			
+				<div  id="gate" class="col-md" style="text-align: center; padding-bottom: 2rem;">
+					<a href="hometown.html"><i class='fab fa-raspberry-pi' id="raspberry"></i></a>
+					<span><br /><br />Allons-y!</span>
+				</div>
+			</div>
+			
+			<footer id="footer" class="index">
+				<div class="row justify-content-center">
+					<div class="col-auto">All rights reserved &copy;2019. Made in Istanbul<br />Powered by Bootstrap.CSS</div>
+				</div>
+			</footer>
+				
+		</div>
+
+<script>
+document.getElementById("raspberry").addEventListener("mouseenter", fadeOut);
+document.getElementById("raspberry").addEventListener("mouseleave", fadeIn);
+document.getElementById("lang-button").addEventListener("click", langMenu);
+
+function langMenu () {
+	document.querySelector(".lang-drop-down").classList.toggle("down");
+}
+
+window.onclick = function(event) {
+  	if (!event.target.matches('#lang-button')) {
+		document.querySelector(".lang-drop-down").classList.remove("down");
+	}
+}
+
+function fadeOut() {
+	document.getElementById("portrait").style.opacity = "0.2";
+	document.getElementById("portrait").style.filter = "blur(3px)";
+	document.getElementById("footer").style.opacity = "0.2";
+}
+
+function fadeIn() {
+	document.getElementById("portrait").style.opacity = "1";
+	document.getElementById("portrait").style.filter = "blur(0px)";
+	document.getElementById("footer").style.opacity = "1";
+}
+</script>
+     </body>
+
+</html>

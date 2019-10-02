@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+
+<head>
+	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="UTF-8">
+	<link href="styles.css" rel="stylesheet">
+	<title>Outdoors</title>
+</head>
+
+<body>
+	<div class="lang-menu outdoors blurable">
+		<div><i class="fas fa-globe outdoors" id="lang-button"></i></div>
+		<div class="lang-drop-down outdoors">
+			<a id="lang" href="outdoors_ua.html">Українська</a>
+		</div>
+	</div>
+
+	<header class="blurable" style="background-image: url(img/outdoors/background.jpg);">
+		<div class="container-fluid" style="color: #0c0e0c;">
+			<div class="row justify-content-center"><h1>OUTDOORS ADVENTURES</h1></div>
+			<div class="row justify-content-center"><h3>Mountains and such</h3></div>
+			<div class="row justify-content-end">
+				<div class="col-6 col-sm-4"><p style="text-align: right; font-size: 1.15em; letter-spacing: 2px;"><cite>Better than all the mounts is the Mount, Which nobody has mounted yet!</cite><br />Vladimir Vysotsky</p>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<main class="outdoors-svg">
+		<div class="sticky" id="nav-bar">
+			<div class="menu-btn outdoors">
+  				<div class="bar1"></div>
+  				<div class="bar2"></div>
+  				<div class="bar3"></div>
+			</div>
+			<div id="nav-drop-down" class="menu-down menu-up">
+				<a href="index.html"><i class="fab fa-raspberry-pi outdoors"></i><span class="outdoors">Intro</span></a>
+				<a href="hometown.html"><i class="fas fa-home outdoors"></i><span class="outdoors">Hometown</span></a> 
+				<a href="outdoors.html" id="current"><i class="fas fa-hiking outdoors"></i><span class="outdoors">Outdoors</span></a>
+				<a href="cities.html"><i class="fas fa-city outdoors"></i><span class="outdoors">Cities</span></a>
+			</div>
+		</div>
+		
+		<div class="container-fluid blurable" style="margin-top: -2.5rem;">
+			<div class="row align-items-center presentation">
+	
+				<div class="col-lg-4" style="margin-top: 4.3rem;">
+					<div class="article-holder outdoors">	
+						<div class="heading outdoors"><h2>Mountains</h2></div>
+						<div class="col article outdoors">
+							<article>
+								<p>Before I climbed any mountains I thought that the sea-side is the best place to be. That off course was before... Over the high-school/college years me and my buddies covered Carpathian Mountains several times, Crimean Mountains twice, and the marble of my mountaineering - ascent to Elbrus in the Caucasus Mountains.</p>
+								<p>Carpathians are interfused with ancient gutsul life-affirming vividness, legends, and at times gloomy (even doom) atmosphere. A great instance of this would be the highland lake Nesamovyte that has a legend attached to it. It says that the lake makes the weather on the whole ridge and if you somehow disturb it (by throwing a rock or swimming) it shall rain. Coincidence or not, but this exact thing happened when we watched a group of hikers swimming in it and several hours later saw a storm heading their way. Luckily for us we went the opposite way that day :) I've been to Carpathians in the summer, fall and winter. With every season they felt like a completely different place: summers are warm and blooming, the fall is ever colorful and rich with berried, while the winter is harsh and uncompromising - a true test for those with determination and proper gear.</p>
+								<p>Crimean Mountains are rather dry and are much more populated, so we never felt as remote from civilization as in the Carpathians. Their particular feature is yayly - flat plateaus. You rarely see a mountain peek there, but rather a flat mountain-top. Proximity to the sea makes them a fantastic get-away: both times there we descended to the sea to camp for a couple of days at the sea-side after an enduring hike.</p>
+								<p>Caucasus Mountains were completely unreal for me. I could not believe that a place like that exists. Pictures do them no justice at all for the experience of that glorious magnitude was overwhelming. I was a part of an Elbrus expedition that meant to climb the western peak (5642m). We took several days to get to the foot of the mountain just to let ourselves adjust to the altitude change. On the way we had to cross a glacier - probably the scariest thing I ever did. The ascent itself posed a true test of endurance. While our winter ascent to Hoverla was technically challenging due to the wind and harsh weather conditions, ascending Elbrus was a different struggle altogether. It took us 9 hours just to get to the top and another 4 to descent back down to our camp, but it was worth it!</p>
+							</article>
+						</div>
+					</div>
+				</div>
+			
+				<div class="col-lg-8 map-gal">
+
+					<div class="row tabs justify-content-end">
+						<button class="col-auto tablink1 outdoors default1" onclick="open1Tab(event, 'map-1')">Map</button>
+						<button class="col-auto tablink1 outdoors" onclick="open1Tab(event, 'gallery-1')">Gallery</button>
+					</div>
+
+					<div class="map-1 tab1content outdoors">
+						<iframe src="https://www.google.com/maps/d/embed?mid=1f8Ord4GkeY8zTA9sM05sEnn2fLDwE2oo&hl=en" width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+					</div>
+
+					<div class="gallery-1 tab1content outdoors">
+						<div id="carousel-1" class="carousel slide" data-ride="carousel" data-interval="10000"> 						
+							<div class="carousel-inner">
+   								<div class="carousel-item active">
+      									<img class="d-block w-100" src="img/outdoors/cp-fromhoverla.jpg" alt="View from Hoverla">
+									<div class="carousel-caption d-none d-md-block">
+    										<h5>View from Hoverla</h5>
+    										<p>Chornohory</p>
+  									</div>    							
+								</div>
+   	 							<div class="carousel-item">
+      									<img class="d-block w-100" src="img/outdoors/cp-view.jpg" alt="View on Chornohory">
+									<div class="carousel-caption d-none d-md-block">
+    										<h5>View on Chornohory</h5>
+    										<p>Magnificent feeling of endless mountains around you</p>
+  									</div>    							
+    								</div>
+	   							<div class="carousel-item">
+      									<img class="d-block w-100" src="img/outdoors/cp-view1.jpg" alt="View from Mount Turkul">
+									<div class="carousel-caption d-none d-md-block">
+    										<h5>View from Mount Turkul</h5>
+    										<p>Underneath lies lake Nesamovyte</p>
+  									</div>    							
+    								</div>
+	   							<div class="carousel-item">
+      									<img class="d-block w-100" src="img/outdoors/cp-brebeneskul.jpg" alt="Brebeneskul Lake">
+									<div class="carousel-caption d-none d-md-block">
+    										<h5>Brebeneskul Lake</h5>
+    										<p>Another marvelous high-altitude lake in Chornohory</p>
+  									</div>    							
+    								</div>
+   								<div class="carousel-item">
+	      								<img class="d-block w-100" src="img/outdoors/cp-camp.jpg" alt="Campside">
+									<div class="carousel-caption d-none d-md-block">
+    										<h5>Campside</h5>
+    										<p>On the way to Hoverla</p>
+  									</div>    							
+    								</div>
+   								<div class="carousel-item">
+      									<img class="d-block w-100" src="img/outdoors/cp-wdima-hoverla.jpg" alt="View on Hoverla">
+									<div class="carousel-caption d-none d-md-block">
+	    									<h5>Me and Dima</h5>
+    										<p>On our way to ascending Hoverla</p>
+  									</div>    							
+    								</div>
+   								<div class="carousel-item">
+      									<img class="d-block w-100" src="img/outdoors/cp-jump.jpg" alt="Me and Dima jumping">
+									<div class="carousel-caption d-none d-md-block">
+    										<h5>A dance of the mountain goats</h5>
+    										<p>Descending from Chornohory</p>
+	  								</div>    							
+    								</div>
+   								<div class="carousel-item">
+      									<img class="d-block w-100" src="img/outdoors/cp-ppl.jpg" alt="Group of hikers">
+									<div class="carousel-caption d-none d-md-block">
+    										<h5>Our hiking crew</h5>
+    										<p>You really get to know people only when you venture out together into the mountains</p>
+  									</div>    							
+	    							</div>
+   								<div class="carousel-item">
+      									<img class="d-block w-100" src="img/outdoors/cp-hoverla-winter.jpg" alt="Mountain covered in snow">
+									<div class="carousel-caption d-none d-md-block">
+    										<h5>Hoverla in January</h5>
+    										<p>One of the toughest ascents ever in my life</p>
+  									</div>    							
+	    							</div>
+   								<div class="carousel-item">
+      									<img class="d-block w-100" src="img/outdoors/cr3.jpg" alt="Crimean Mountains">
+									<div class="carousel-caption d-none d-md-block">
+    										<h5>Crimean Mountains</h5>
+    										<p>Crimean yayla plateau</p>
+  									</div>    							
+	    							</div>
+   								<div class="carousel-item">
+      									<img class="d-block w-100" src="img/outdoors/cr2.jpg" alt="Mountain-side">
+									<div class="carousel-caption d-none d-md-block">
+    										<h5>At the Black Sea</h5>
+    										<p>Mountains abruptly drop into the water</p>
+  									</div>    							
+	    							</div>
+   								<div class="carousel-item">
+      									<img class="d-block w-100" src="img/outdoors/cr-camp.jpg" alt="Campsite at the sea">
+									<div class="carousel-caption d-none d-md-block">
+    										<h5>Campsite at the sea</h5>
+    										<p>Best place to recover from an exhaustive hike</p>
+  									</div>    							
+	    							</div>
+   								<div class="carousel-item">
+      									<img class="d-block w-100" src="img/outdoors/cr-night-camp.jpg" alt="Night fire">
+									<div class="carousel-caption d-none d-md-block">
+    										<h5>Night campfire</h5>
+    										<p>With the sea whispering in the background</p>
+  									</div>    							
+	    							</div>
+   								<div class="carousel-item">
+      									<img class="d-block w-100" src="img/outdoors/cc-view1.jpg" alt="Mountain view">
+									<div class="carousel-caption d-none d-md-block">
+    										<h5>Caucasus Mountains</h5>
+    										<p>View on the Main Caucasus Ridge</p>
+  									</div>    							
+	    							</div>
+   								<div class="carousel-item">
+      									<img class="d-block w-100" src="img/outdoors/cc-view3.jpg" alt="Mountain view">
+									<div class="carousel-caption d-none d-md-block">
+    										<h5>Caucasus Mountains</h5>
+    										<p>View on the Main Caucasus Ridge</p>
+  									</div>    							
+	    							</div>
+   								<div class="carousel-item">
+      									<img class="d-block w-100" src="img/outdoors/cc-view.jpg" alt="Mountain view">
+									<div class="carousel-caption d-none d-md-block">
+    										<h5>Caucasus Mountains</h5>
+    										<p>View on the Main Caucasus Ridge</p>
+  									</div>    							
+	    							</div>
+   								<div class="carousel-item">
+      									<img class="d-block w-100" src="img/outdoors/cc-view2.jpg" alt="Mountain view">
+									<div class="carousel-caption d-none d-md-block">
+    										<h5>Main Caucasus Ridge</h5>
+    										<p>Ready to approach Elbrus</p>
+  									</div>    							
+	    							</div>
+   								<div class="carousel-item">
+      									<img class="d-block w-100" src="img/outdoors/cc-elbrus.jpg" alt="Elbrus">
+									<div class="carousel-caption d-none d-md-block">
+    										<h5>Elbrus</h5>
+    										<p>Traversing the glacier on the way to Elbrus</p>
+  									</div>    							
+	    							</div>
+   								<div class="carousel-item">
+      									<img class="d-block w-100" src="img/outdoors/cc-river.jpg" alt="Crossing a mountain river">
+									<div class="carousel-caption d-none d-md-block">
+    										<h5>Crossing a mountain river</h5>
+    										<p>I don't recommend doing this at home</p>
+  									</div>    							
+	    							</div>
+   								<div class="carousel-item">
+      									<img class="d-block w-100" src="img/outdoors/cc-flowers.jpg" alt="Mountain flowers">
+									<div class="carousel-caption d-none d-md-block">
+    										<h5>Mountain flowers</h5>
+    										<p>Rock, snow, ice and glimmers of hope</p>
+  									</div>    							
+	    							</div>
+  							</div>
+  							<a class="carousel-control-prev" href="#carousel-1" role="button" data-slide="prev">
+    								<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    								<span class="sr-only">Previous</span>
+ 							</a>
+	  						<a class="carousel-control-next" href="#carousel-1" role="button" data-slide="next">
+    								<span class="carousel-control-next-icon" aria-hidden="true"></span>
+    								<span class="sr-only">Next</span>
+  							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+
+		<div class="container-fluid blurable" style="margin: 2rem 0 0 0; padding-bottom: 2rem;">
+			<div class="row align-items-center presentation">	
+
+				<div class="col-lg-4" style="margin-top: 4.3rem;">
+					<div class="article-holder outdoors">	
+						<div class="heading outdoors"><h2>US Hikes</h2></div>
+						<div class="col article outdoors">
+							<article>
+								<p>Throughout my years in the US I explored the nearby outdoors locations in attempt to reconnect with the nature and get away from the pressure of cars, concrete, and city noise. Some of my favorite locations are Laurel Highlands Hiking Trail, Allegheny river, the Allegheny National Forest, and Wolf Run lake in Noble County, OH.</p>
+								<p>That part of the States has a truly interesting nature with lots of rivers, creeks, hills, and forests. The fauna was also unusually striking for me with the eagles flying over the riverbeds and millions of fireflies in June. The fireflies particularly captivated me since I've never seen them before. I first encountered them while living in Pittsburgh and they felt unreal, like a fairytale. Little I knew back then. On one of my hikes to Laurel Highlands Hiking Trail me and Abhishek camped out on the woods. At night we realized that we were surrounded by millions of fireflies. They were everywhere and they were countless. The place was lit up like on Christmas and the party kept on going all night long. It was unforgettable.</p>
+							</article>
+						</div>
+					</div>
+				</div>
+			
+				<div class="col-lg-8 map-gal order-last order-lg-first">
+
+					<div class="row tabs justify-content-end">
+						<button class="col-auto tablink2 outdoors default2" onclick="open2Tab(event, 'map-2')">Map</button>
+						<button class="col-auto tablink2 outdoors" onclick="open2Tab(event, 'gallery-2')">Gallery</button>
+					</div>
+
+					<div class="map-2 tab2content outdoors">
+						<iframe src="https://www.google.com/maps/d/u/0/embed?mid=1ohOiVpCH2JGkH9Gk9-GpuR9IZ5MzfdSh" width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+					</div>
+	
+					<div class="gallery-2 tab2content outdoors">
+						<div id="carousel-2" class="carousel slide" data-ride="carousel" data-interval="10000"> 						
+							<div class="carousel-inner">
+   								<div class="carousel-item active">
+      									<img class="d-block w-100" src="img/outdoors/pa-natalfor-view.jpg" alt="Allegheny National Forest at fall">
+									<div class="carousel-caption d-none d-md-block">
+    										<h5>Allegheny National Forest at fall</h5>
+    										<p>View from Kinzua Bridge</p>
+	  								</div>    							
+								</div>
+    								<div class="carousel-item">
+      									<img class="d-block w-100" src="img/outdoors/pa-allegheny.jpg" alt="Allegheny River">
+									<div class="carousel-caption d-none d-md-block">
+    										<h5>Allegheny River</h5>
+    										<p>Calm and peaceful canoe trip upstream from Pittsburgh</p>
+  									</div>    							
+	    							</div>
+   								<div class="carousel-item">
+      									<img class="d-block w-100" src="img/outdoors/oh-wr.jpg" alt="Wolf Run Lake">
+									<div class="carousel-caption d-none d-md-block">
+    										<h5>Wolf Run Lake</h5>
+    										<p>Noble County, OH</p>
+  									</div>    							
+	    							</div>
+   								<div class="carousel-item">
+      									<img class="d-block w-100" src="img/outdoors/oh-wr-fire.jpg" alt="Campfire at the lake">
+									<div class="carousel-caption d-none d-md-block">
+    										<h5>Wolf Run Lake</h5>
+    										<p>A campfire always warm me up form the inside</p>
+  									</div>    							
+	    							</div>
+   								<div class="carousel-item">
+      									<img class="d-block w-100" src="img/outdoors/pa-sandy.jpg" alt="Sandy Creek">
+									<div class="carousel-caption d-none d-md-block">
+    										<h5>Sandy Creek</h5>
+    										<p>Seen any pirates lately?</p>
+  									</div>    							
+	    							</div>
+   								<div class="carousel-item">
+      									<img class="d-block w-100" src="img/outdoors/pa-sandy-paddle.jpg" alt="Paddle board">
+									<div class="carousel-caption d-none d-md-block">
+    										<h5>Sandy Creek</h5>
+    										<p>Found one :)</p>
+  									</div>    							
+	    							</div>
+   								<div class="carousel-item">
+      									<img class="d-block w-100" src="img/outdoors/pa-natalfor-waterfall.jpg" alt="Waterfall">
+									<div class="carousel-caption d-none d-md-block">
+    										<h5>Bent Run Waterfall</h5>
+    										<p>Allegheny National Forest</p>
+  									</div>    							
+	    							</div>
+   								<div class="carousel-item">
+      									<img class="d-block w-100" src="img/outdoors/pa-natalfor-view1.jpg" alt="Forest at fall">
+									<div class="carousel-caption d-none d-md-block">
+    										<h5>Allegheny National Forest</h5>
+    										<p>November foliage</p>
+  									</div>    							
+	    							</div>
+   								<div class="carousel-item">
+      									<img class="d-block w-100" src="img/outdoors/pa-natalfor-stalker.jpg" alt="Forest at fall">
+									<div class="carousel-caption d-none d-md-block">
+    										<h5>Allegheny National Forest</h5>
+    										<p>Reminds of a scene from Tarkovskii's Stalker</p>
+  									</div>    							
+	    							</div>
+   								<div class="carousel-item">
+      									<img class="d-block w-100" src="img/outdoors/pa-natalfor-rocks.jpg" alt="Boulders">
+									<div class="carousel-caption d-none d-md-block">
+    										<h5>Allegheny National Forest</h5>
+    										<p>Majestic boulders in the forest</p>
+  									</div>    							
+	    							</div>
+   								<div class="carousel-item">
+      									<img class="d-block w-100" src="img/outdoors/pa-natalfor-camp.jpg" alt="Campsite">
+									<div class="carousel-caption d-none d-md-block">
+    										<h5>Allegheny National Forest</h5>
+    										<p>Camping on my solo hike to the forest</p>
+  									</div>    							
+	    							</div>
+   								<div class="carousel-item">
+      									<img class="d-block w-100" src="img/outdoors/pa-natalfor-bridge.jpg" alt="Bridge">
+									<div class="carousel-caption d-none d-md-block">
+    										<h5>Allegheny National Forest</h5>
+    										<p>Crisp air, vivid colors, and the sounds of forest...</p>
+  									</div>    							
+	    							</div>
+   								<div class="carousel-item">
+      									<img class="d-block w-100" src="img/outdoors/pa-lhht-shelter.jpg" alt="Shelter">
+									<div class="carousel-caption d-none d-md-block">
+    										<h5>Laurel Highlands Hiking Trail</h5>
+    										<p>My favorite way to spend a night on the trail!</p>
+  									</div>    							
+    								</div>
+	   							<div class="carousel-item">
+      									<img class="d-block w-100" src="img/outdoors/pa-lhht-cliff.jpg" alt="Cliff">
+									<div class="carousel-caption d-none d-md-block">
+    										<h5>Laurel Highlands Hiking Trail</h5>
+    										<p>Me and Abhishek enjoying the view</p>
+  									</div>    							
+    								</div>
+	  						</div>
+  							<a class="carousel-control-prev" href="#carousel-2" role="button" data-slide="prev">
+    								<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    								<span class="sr-only">Previous</span>
+ 							</a>
+  							<a class="carousel-control-next" href="#carousel-2" role="button" data-slide="next">
+    								<span class="carousel-control-next-icon" aria-hidden="true"></span>
+    								<span class="sr-only">Next</span>
+	  						</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
+
+	<footer class="blurable outdoors">
+		<div class="row justify-content-center" style="margin: 0;">
+			<div class="col-auto">All rights reserved &copy;2019. Made in Istanbul<br />Powered by Bootstrap.CSS</div>
+		</div>
+	</footer>
+
+<script src='https://kit.fontawesome.com/a076d05399.js'></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	
+<script>			
+	document.querySelector(".menu-btn > div").addEventListener("click", function(e) {
+  		e.stopPropagation();
+		e.preventDefault();
+	});
+
+	document.querySelector(".menu-btn").addEventListener("click", menuBtnTransform);
+	document.querySelector(".menu-btn").addEventListener("click", dropDownMenu);
+	document.querySelector(".menu-btn").addEventListener("click", blur);
+	document.getElementById("lang-button").addEventListener("click", langMenu);
+
+	function langMenu () {
+		document.querySelector(".lang-drop-down").classList.toggle("down");
+	}
+
+	function menuBtnTransform() {
+  		var x = document.getElementsByClassName("menu-btn");
+		for (var a = 0; a < x.length; a++) {
+			var b = x[a];
+			b.classList.toggle("change");
+		}
+	}
+
+	function dropDownMenu() {
+		document.getElementById("nav-drop-down").classList.toggle("menu-up");
+	}
+
+	window.onclick = function(event) {
+  		if (!event.target.matches('.menu-btn')) {
+    			var dropdown = document.getElementById("nav-drop-down");
+      			if (!dropdown.classList.contains('menu-up')) {
+      				dropdown.classList.add('menu-up');
+    			}
+
+			document.querySelector(".menu-btn").classList.remove('change');
+
+			var deblur = document.getElementsByClassName("blurable");
+			for (var a = 0; a < deblur.length; a++) {
+				deblur[a].classList.remove("blur");
+			}
+
+			document.querySelector("main").classList.remove("blur-background");
+  		}
+		if (!event.target.matches('#lang-button')) {
+			document.querySelector(".lang-drop-down").classList.remove("down");
+		}
+	}
+
+	function blur() {
+		var a = document.getElementsByClassName("blurable");
+		for (var b = 0; b < a.length; b++) {
+			a[b].classList.toggle("blur");
+		}
+
+		document.querySelector("main").classList.toggle("blur-background");
+	}
+
+	document.querySelector(".default1").click();
+	document.querySelector(".default2").click();
+
+	function open1Tab(evt, tabName) {
+		var i, tabcontent, tablink;
+
+		tabcontent = document.getElementsByClassName("tab1content");
+			for (i = 0; i < tabcontent.length; i++) {
+				tabcontent[i].style.display = "none";
+			}
+
+		tablink = document.getElementsByClassName("tablink1");
+		for (i = 0; i < tablink.length; i++) {
+			tablink[i].className = tablink[i].className.replace(" active", "");
+		}
+
+		var k = document.getElementsByClassName(tabName); 
+			for (var a = 0; a < k.length; a++) {
+				var b = k[a];
+				b.style.display = "block";
+			}
+		evt.currentTarget.className += " active";
+	}
+
+	function open2Tab(evt, tabName) {
+		var i, tabcontent, tablink;
+
+		tabcontent = document.getElementsByClassName("tab2content");
+			for (i = 0; i < tabcontent.length; i++) {
+				tabcontent[i].style.display = "none";
+			}
+
+		tablink = document.getElementsByClassName("tablink2");
+		for (i = 0; i < tablink.length; i++) {
+			tablink[i].className = tablink[i].className.replace(" active", "");
+		}
+
+		var k = document.getElementsByClassName(tabName); 
+			for (var a = 0; a < k.length; a++) {
+				var b = k[a];
+				b.style.display = "block";
+			}
+		evt.currentTarget.className += " active";
+	}	
+</script>
+</body>
+</html>
+	
